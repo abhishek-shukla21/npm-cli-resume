@@ -1,0 +1,24 @@
+{
+  "name": "abhishek-shukla",
+  "version": "1.0.0",
+  "description": "A cli for printing portfolio of Abhishek Shukla",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "abhishek-shukla": "index.mjs"
+  },
+  "keywords": [
+    "cli",
+    "portfolio"
+  ],
+  "author": "abhishek-shukla",
+  "license": "ISC",
+  "dependencies": {
+    "abhishek-shukla": "^1.0.0",
+    "cli-markdown": "^3.0.5",
+    "commander": "^11.0.0",
+    "node-fetch": "^2.7.0"
+  }
+}
